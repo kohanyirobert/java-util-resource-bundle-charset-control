@@ -48,7 +48,7 @@ mvn install
 ```java
 String baseName = ...
 Charset charset = ...
-Control = new CharsetControl(charset);
+Control control = new CharsetControl(charset);
 ResourceBundle bundle = ResourceBundle.getBundle(baseName, control);
 ```
 
